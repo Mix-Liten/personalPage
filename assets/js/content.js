@@ -22,7 +22,7 @@ let CONTENT = {
       work_list: [{
         img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/Vue-Erate-Home.jpg',
         title: 'Exchange rate (Free-Erate)',
-        text: 'This website was provided ideas from friends before he went abroad, it offer exchange rates between 20 popular currencies.',
+        text: 'This website was provided ideas from friends before he went abroad. We use github to cooperate, it offer exchange rates between 20 popular currencies.',
         enabled: true,
         buttons: [{
           link_text: 'Free-Erate',
@@ -134,7 +134,7 @@ let CONTENT = {
       work_list: [{
         img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/Vue-Erate-Home.jpg',
         title: '匯率兌換 (Free-Erate)',
-        text: '此匯率兌換網站為朋友出國前提出的點子，此網站提供二十種熱門貨幣之間的匯率換算。',
+        text: '此匯率兌換網站為朋友出國前提出的點子，與朋友通過 GitHub 共同協作此專案，此網站提供二十種熱門貨幣之間的匯率換算。',
         enabled: true,
         buttons: [{
           link_text: 'Free-Erate',
