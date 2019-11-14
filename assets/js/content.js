@@ -20,7 +20,7 @@ let CONTENT = {
     },
     my_works_section: {
       work_list: [{
-        img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/Vue-Erate-Home.jpg',
+        img_src: 'images/works/Vue-Erate-Home.jpg',
         title: 'Exchange rate (Free-Erate)',
         text: 'This website was provided ideas from friends before he went abroad. We use github to cooperate, it offer exchange rates between 20 popular currencies.',
         enabled: true,
@@ -32,7 +32,7 @@ let CONTENT = {
           link_to: 'https://github.com/joechen0730/Vue-Eate'
         }]
       }, {
-        img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/japan-travel.JPG',
+        img_src: 'images/works/japan-travel.JPG',
         title: 'Japan independent tours',
         text: 'This website is my final achievement in Vocational Training Bureau\'s frontend class, code the RWD page with 1200px and 600px breakpoints, and add a variety of animation effects.',
         enabled: true,
@@ -132,7 +132,7 @@ let CONTENT = {
     },
     my_works_section: {
       work_list: [{
-        img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/Vue-Erate-Home.jpg',
+        img_src: 'images/works/Vue-Erate-Home.jpg',
         title: '匯率兌換 (Free-Erate)',
         text: '此匯率兌換網站為朋友出國前提出的點子，與朋友通過 GitHub 共同協作此專案，此網站提供二十種熱門貨幣之間的匯率換算。',
         enabled: true,
@@ -144,7 +144,7 @@ let CONTENT = {
           link_to: 'https://github.com/joechen0730/Vue-Eate'
         }]
       }, {
-        img_src: 'https://raw.githubusercontent.com/Mix-Liten/Resume/master/japan-travel.JPG',
+        img_src: 'images/works/japan-travel.JPG',
         title: '日本自由行',
         text: '此網站是我在職訓局學習網頁前端的期末成果，手刻了分界點為1200px及600px的RWD頁面，並加入多種動畫效果。',
         enabled: true,
