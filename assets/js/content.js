@@ -32,7 +32,7 @@ let CONTENT = {
           link_to: 'https://github.com/joechen0730/Vue-Eate'
         }]
       }, {
-        img_src: 'images/works/japan-travel.JPG',
+        img_src: 'images/works/japan-travel.jpg',
         title: 'Japan independent tours',
         text: 'This website is my final achievement in Vocational Training Bureau\'s frontend class, code the RWD page with 1200px and 600px breakpoints, and add a variety of animation effects.',
         enabled: true,
@@ -144,7 +144,7 @@ let CONTENT = {
           link_to: 'https://github.com/joechen0730/Vue-Eate'
         }]
       }, {
-        img_src: 'images/works/japan-travel.JPG',
+        img_src: 'images/works/japan-travel.jpg',
         title: '日本自由行',
         text: '此網站是我在職訓局學習網頁前端的期末成果，手刻了分界點為1200px及600px的RWD頁面，並加入多種動畫效果。',
         enabled: true,
