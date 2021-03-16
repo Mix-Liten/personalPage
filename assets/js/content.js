@@ -21,6 +21,23 @@ let CONTENT = {
     my_works_section: {
       work_list: [
         {
+          img_src: "images/works/github-rankings.png",
+          title: "Project ranking (GH Rankings)",
+          text:
+            "Crawl the project information that meets certain conditions in the GitHub public API. This website can filter various indicators such as identity, language, number of stars, etc., to find the most popular public projects under certain conditions. This is a project developed by friends , I help optimize and update front-end features",
+          enabled: true,
+          buttons: [
+            {
+              link_text: "GH Rankings",
+              link_to: "https://gh-rankings.epoch.tw/",
+            },
+            {
+              link_text: "GitHub",
+              link_to: "https://github.com/memochou1993/gh-rankings",
+            },
+          ],
+        },
+        {
           img_src: "images/works/Vue-Erate-Home.jpg",
           title: "Exchange rate (Free-Erate)",
           text:
@@ -73,13 +90,13 @@ let CONTENT = {
         {
           icon: "desktop",
           title: "Frontend",
-          text: "Vue.js, React, HTML, CSS, Native JS, jQuery, Bootstrap",
+          text: "Vanilla JS, Vue.js, React, jQuery, Bootstrap...",
         },
         {
           icon: "codepen",
           title: "Node.js",
           text:
-            "One years of Node.js experience, both backend development (Express.js, Koa) and web crawler.",
+            "Two years of Node.js experience, is mainly on the back end of the web, and applications such as crawlers / desktop applications / IoT have also been developed.",
         },
         {
           icon: "code-fork",
@@ -89,9 +106,9 @@ let CONTENT = {
         },
         {
           icon: "code",
-          title: "PHP / Laravel",
+          title: "DevOps",
           text:
-            "Because of the high usage rate of the language，self-study to improve code ability in leisure time.",
+            "One year of experience in using Jenkins, deploying the project on the cloud and on the ground machine. One year of Docker experience, assisting in the establishment of a local development environment.",
         },
         {
           icon: "terminal",
@@ -109,13 +126,13 @@ let CONTENT = {
     my_experince_section: {
       experiences: [
         {
-          title: "ezTravel易遊網 前端工程師",
-          date: "2019.12 - 至今",
+          title: "Frontend Stack Developer, ezTravel",
+          date: "2019.12 - now.",
           list: [
-            "維護官網於節日及活動時更版，提出並解決多項陳年 UI / UX 問題",
-            "翻新及維護部分內部專案，優化業務端上稿方式，減少大量需求單來回與活動更版流程",
-            "協助拓展公司因應疫情的業務，與同事協力使用 React / Next.js 從零開始搭建加盟後台，使多方非普通會員使用者可瀏覽訂單及相關資訊",
-            "協助搭建公司全網前端介面共用元件，從零開始建立包含測試及使用範例的 Storybook，之後仍持續維護及更新",
+            "Maintain the official website to be updated during festivals and events, find and solve some of old UI / UX issues",
+            "Maintain part of the internal projects, optimize the business-side drafting method, and rreduce the large number of demand orders and the revision process",
+            "Assist in expanding the company's business in face to the COVID-19, and work with colleagues to use React / Next.js to build a franchiser management system from scratch, so that non-ordinary member users can browse orders and related information",
+            "Assist in building the company’s entire front-end styled components, build a Storybook with tests and usage examples from scratch, and continue to maintain and update it afterwards",
           ],
           link: "https://www.eztravel.com.tw/",
           link_text: "ezTravel",
@@ -243,23 +260,24 @@ let CONTENT = {
           icon: "codepen",
           title: "Node.js",
           text:
-            "兩年 Node.js 開發經驗，應用面主要在 網頁後端，也開發過 爬蟲 / 桌面應用 / 物聯網 等方面應用",
+            "兩年以上 Node.js 開發經驗，應用面主要在 網頁後端，也開發過 爬蟲 / 桌面應用 / 物聯網 等方面應用",
         },
         {
           icon: "code-fork",
           title: "Git",
-          text: "兩年 Git 版本控制經驗，曾與十個以上的開發者一同協作專案",
+          text: "兩年以上 Git 版本控制經驗，曾與十個以上的開發者一同協作專案",
         },
         {
           icon: "code",
           title: "DevOps",
           text:
-            "一年 Jenkins 使用經驗，部署專案於雲端及地端機器。一年 Docker 使用經驗，協助建立地端開發環境",
+            "一年以上 Jenkins 使用經驗，部署專案於雲端及地端機器。一年 Docker 使用經驗，協助建立地端開發環境",
         },
         {
           icon: "terminal",
           title: "Cloud Platform",
-          text: "一年 CentOS / 類 Unix 系統經驗，曾使用過紅帽公司的 OpenShift",
+          text:
+            "一年以上 CentOS / 類 Unix 系統經驗，曾使用過紅帽公司的 OpenShift",
         },
         {
           icon: "chain",
@@ -271,7 +289,7 @@ let CONTENT = {
     my_experince_section: {
       experiences: [
         {
-          title: "ezTravel易遊網 前端工程師",
+          title: "ezTravel易遊網 工程師",
           date: "2019.12 - 至今",
           list: [
             "維護官網於節日及活動時更版，提出並解決多項陳年 UI / UX 問題",
@@ -298,9 +316,9 @@ let CONTENT = {
           title: "台灣就業通職業訓練 跨平台網頁程式設計班",
           date: "2017.9 - 2017.12",
           list: [
-            "學習HTML5、JavaScript、CSS3",
-            "學習PHP、MySQL、Laravel",
-            "學習C#、ASP.NET MVC、MS-SQL",
+            "學習 HTML5、JavaScript、CSS3",
+            "學習 PHP、MySQL、Laravel",
+            "學習 C#、ASP.NET MVC、MS-SQL",
             "學習系統分析與設計",
           ],
           link: "https://www.wda.gov.tw/Content_List.aspx?n=5B78EEBCE18CBE9F",
