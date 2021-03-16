@@ -95,19 +95,31 @@ let CONTENT = {
         },
         {
           icon: "terminal",
-          title: "CentOS Server / OpenShift",
+          title: "Cloud Platform",
           text:
             "One years of CentOS Server / Unix-like experience. Experienced in OpenShift developed by Red Hat.",
         },
         {
           icon: "chain",
           title: "Other",
-          text: "Python, MySQL, C#.Net, LINE Bot, Flutter",
+          text: "Go, C#.Net, PHP, LINE Bot, MySQL, MongoDB...",
         },
       ],
     },
     my_experince_section: {
       experiences: [
+        {
+          title: "ezTravel易遊網 前端工程師",
+          date: "2019.12 - 至今",
+          list: [
+            "維護官網於節日及活動時更版，提出並解決多項陳年 UI / UX 問題",
+            "翻新及維護部分內部專案，優化業務端上稿方式，減少大量需求單來回與活動更版流程",
+            "協助拓展公司因應疫情的業務，與同事協力使用 React / Next.js 從零開始搭建加盟後台，使多方非普通會員使用者可瀏覽訂單及相關資訊",
+            "協助搭建公司全網前端介面共用元件，從零開始建立包含測試及使用範例的 Storybook，之後仍持續維護及更新",
+          ],
+          link: "https://www.eztravel.com.tw/",
+          link_text: "ezTravel",
+        },
         {
           title: "Frontend Stack Developer, Concept",
           date: "2018.8 - 2019.8",
