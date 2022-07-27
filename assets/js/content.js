@@ -1,4 +1,4 @@
-let last_update_time = "2021.03.17";
+let last_update_time = "2022.07.27";
 let CONTENT = {
   en: {
     sidebar: {
@@ -20,23 +20,6 @@ let CONTENT = {
     },
     my_works_section: {
       work_list: [
-        {
-          img_src: "images/works/github-rankings.png",
-          title: "Project ranking (GH Rankings)",
-          text:
-            "Crawl the project information that meets certain conditions in the GitHub public API. This website can filter various indicators such as identity, language, number of stars, etc., to find the most popular public projects under certain conditions. This is a project developed by friends , I help optimize and update front-end features",
-          enabled: true,
-          buttons: [
-            {
-              link_text: "GH Rankings",
-              link_to: "https://gh-rankings.epoch.tw/",
-            },
-            {
-              link_text: "GitHub",
-              link_to: "https://github.com/memochou1993/gh-rankings",
-            },
-          ],
-        },
         {
           img_src: "images/works/Vue-Erate-Home.jpg",
           title: "Exchange rate (Free-Erate)",
@@ -63,7 +46,24 @@ let CONTENT = {
           buttons: [
             {
               link_text: "Japan Travel",
-              link_to: "https://mix-liten.github.io/japan-travel/",
+              link_to: "https://mix-liten.github.io/layout-japan_travel/",
+            },
+          ],
+        },
+        {
+          img_src: "images/works/github-rankings.png",
+          title: "Project ranking (GH Rankings) (closed)",
+          text:
+            "Crawl the project information that meets certain conditions in the GitHub public API. This website can filter various indicators such as identity, language, number of stars, etc., to find the most popular public projects under certain conditions. This is a project developed by friends , I help optimize and update front-end features",
+          enabled: true,
+          buttons: [
+            // {
+            //   link_text: "GH Rankings",
+            //   link_to: "https://gh-rankings.epoch.tw/",
+            // },
+            {
+              link_text: "GitHub",
+              link_to: "https://github.com/memochou1993/gh-rankings",
             },
           ],
         },
@@ -186,23 +186,6 @@ let CONTENT = {
     my_works_section: {
       work_list: [
         {
-          img_src: "images/works/github-rankings.png",
-          title: "專案排名 (GH Rankings)",
-          text:
-            "抓取 GitHub 公開 API 中符合一定條件的專案資訊，此網站可分別篩選身份、語言、星星數...等各項指標，找出特定條件下最受歡迎的公開專案，此為友人開發之專案，協助優化及調整前端功能",
-          enabled: true,
-          buttons: [
-            {
-              link_text: "GH Rankings",
-              link_to: "https://gh-rankings.epoch.tw/",
-            },
-            {
-              link_text: "GitHub",
-              link_to: "https://github.com/memochou1993/gh-rankings",
-            },
-          ],
-        },
-        {
           img_src: "images/works/Vue-Erate-Home.jpg",
           title: "匯率兌換 (Free-Erate)",
           text:
@@ -228,7 +211,24 @@ let CONTENT = {
           buttons: [
             {
               link_text: "Japan Travel",
-              link_to: "https://mix-liten.github.io/japan-travel/",
+              link_to: "https://mix-liten.github.io/layout-japan_travel/",
+            },
+          ],
+        },
+        {
+          img_src: "images/works/github-rankings.png",
+          title: "專案排名 (GH Rankings) (已關閉)",
+          text:
+            "抓取 GitHub 公開 API 中符合一定條件的專案資訊，此網站可分別篩選身份、語言、星星數...等各項指標，找出特定條件下最受歡迎的公開專案，此為友人開發之專案，協助優化及調整前端功能",
+          enabled: true,
+          buttons: [
+            // {
+            //   link_text: "GH Rankings",
+            //   link_to: "https://gh-rankings.epoch.tw/",
+            // },
+            {
+              link_text: "GitHub",
+              link_to: "https://github.com/memochou1993/gh-rankings",
             },
           ],
         },

@@ -120,9 +120,9 @@
             <h2>{{ exp.title }}</h2>
             <p v-show="exp.text !== ''">{{{ exp.text }}}</p>
             <p v-show="exp.list.length > 0">
-              <ul>
-                <li v-for="row in exp.list">{{ row }}</li>
-              </ul>
+            <ul>
+              <li v-for="row in exp.list">{{ row }}</li>
+            </ul>
             </p>
             <ul class="actions">
               <li>
@@ -152,7 +152,10 @@
             </li> -->
             <li>
               <h3>Email</h3>
-              <span class="reverse">moc.liamg@netilxim</span>
+              <span>
+                <a href="mailto:mixliten@hotmail.com">
+                  mixliten@hotmail.com
+                </a></span>
             </li>
             <li>
               <h3>Social Network</h3>
@@ -180,7 +183,7 @@
   <footer id="footer" class="wrapper style1-alt">
     <div class="inner">
       <ul class="menu">
-        <li>&copy; 2021 Ian Chang. Template by:
+        <li>&copy; 2022 Ian Chang. Template by:
           <a href="http://html5up.net" target="_blank">HTML5 UP</a>
         </li>
         <li>Latest update: {{ latest_update }}</li>
