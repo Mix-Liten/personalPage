@@ -29,7 +29,7 @@ let CONTENT = {
           buttons: [
             {
               link_text: "Free-Erate",
-              link_to: "https://erate.now.sh",
+              link_to: "https://erate.vercel.app/#/home/en",
             },
             {
               link_text: "GitHub",
@@ -194,7 +194,7 @@ let CONTENT = {
           buttons: [
             {
               link_text: "Free-Erate",
-              link_to: "https://erate.now.sh",
+              link_to: "https://erate.vercel.app/#/home/tw",
             },
             {
               link_text: "GitHub",
